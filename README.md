@@ -106,11 +106,11 @@ This assignment will be graded via peer assessment.
 Put comments here that give an overall description of what your
 functions do
 
-## These functions introduce a special matrix object which caches its inverse.
-## The create such a special matrix m you execute \code{m <- makeCacheMatrix(x)}
-## where x is an ordinary matrix. You can then get the value with \code{m$get()}
-## and change the value with \code{m$set(y)} where y is an ordinary matrix.
-## You can get the inverse with \code{cacheSolve(m)}.
+These functions introduce a special matrix object which caches its inverse.
+The create such a special matrix m you execute \code{inv <- makeCacheMatrix(x)}
+where x is an ordinary matrix. You can then get the value with \code{inv$get()}
+and change the value with \code{inv$set(y)} where y is an ordinary matrix.
+You can get the inverse with \code{cacheSolve(inv)}.
 
 
 #' Create a special "matrix" object that can cache its inverse.
