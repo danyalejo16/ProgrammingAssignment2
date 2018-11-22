@@ -42,6 +42,7 @@ cacheSolve <- function(x, ...) {
   inv
 }
 
+Test functions
 source("ProgramingAssignment2 / cachematrix.R")
 my_matrix <- makeCacheMatrix ( matrix ( 1 : 4 , 2 , 2 )) 
 my_matrix $ get () 
